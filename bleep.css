@@ -173,7 +173,7 @@ html {
       rgba(162, 210, 255, 0.507),
       rgba(162, 210, 255, 0.3)
     ),
-    url(images/bg-2.jpg) center no-repeat;
+    url(images/bg-2.jpeg) center no-repeat;
   background-size: cover;
   position: relative;
   perspective: 100rem;
@@ -386,6 +386,12 @@ html {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
+}
+
+.card:hover .card-info {
+  bottom: 2rem;
+  opacity: 1;
+  visibility: visible;
 }
 
 .card-info h3 {
