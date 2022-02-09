@@ -38,3 +38,11 @@ document.querySelector(".close-navbar-icon").addEventListener("click", () => {
 });
 
 // end of code for change class
+
+// dynamic year script
+
+const year = document.querySelector(".year");
+const dynamicYear = new Date().getFullYear();
+year.textContent = dynamicYear;
+
+// end dynamic year script
