@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
 
 /* comon styles */
 
@@ -6,7 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Vollkorn", serif;
+  font-family: Titillium Web, Arial, Helvetica, sans-serif;
   text-decoration: none;
   list-style-type: none;
   outline: none;
@@ -285,28 +286,28 @@ html {
 
 .header-image {
   width: 35%;
-  animation: image-float 150s infinite;
+  animation: image-float 15s infinite;
 }
 
 @keyframes image-float {
   0% {
-    transform: translateZ(40rem) rotate(-15deg);
+    transform: translateZ(15rem) rotate(-15deg);
     opacity: 1;
   }
   40% {
-    transform: translateZ(-500rem) translateX(150rem);
+    transform: translateZ(10rem) translateX(2rem);
     opacity: 0.8;
   }
   70% {
-    transform: translateZ(-1500rem) translateX(800rem) rotate(15deg);
+    transform: translateZ(5rem) translateX(5rem) rotate(15deg);
     opacity: 0.6;
   }
   80% {
-    transform: translateZ(-50rem) translateX(100rem);
+    transform: translateZ(10rem) translateX(2rem);
     opacity: 0.8;
   }
   100% {
-    transform: translateZ(40rem) rotate(-15deg);
+    transform: translateZ(15rem) rotate(-15deg);
     opacity: 1;
   }
 }
